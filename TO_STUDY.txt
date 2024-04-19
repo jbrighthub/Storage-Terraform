@@ -1,0 +1,162 @@
+VScode Extensions
+    terraform
+    GitLens
+    trailing spaces
+    empty spaces
+
+
+git
+    clone (both ssh and https)
+    commit
+    add
+    push
+    checkout
+    status
+    diff
+    rebase
+    aliases
+    log
+    ~/.gitconfig  Help
+    ~/.git-credentials
+    templates ~/.git-templates
+
+
+Buildtools
+    Makefile
+    Taskfile
+
+
+vim
+    end of line
+    end of file
+    copy lines
+    delete line
+    delete character
+    save and quit
+    quit without saving
+
+
+Linux
+    basic shell commands
+    use of history
+    reverse search history
+    use of ~/.bashrc and /etc/bashrc
+    /etc/profile.d
+    check filesystem usage
+    inodes
+    check file usage
+    /etc/{passwd,shadow}
+    ssh-keygen  (ssh -i <pem> username@IP)
+    dig
+    nslookup
+    netstat
+    lsof
+
+
+Shell Script Basics
+    for loop  (how to break a loop)
+    while     (how to break a loop)
+    awk  (columnwise print)
+    sed  (search and replace in a file)
+
+
+Docker
+    login   (diff for cloud services) - ACR, ECR, Dockerhub
+    pull
+    push
+    tag
+    commit
+    exec
+    docker-compose
+
+
+Proxy
+    Reverse
+    Forward
+
+
+What is rest and soap API?
+
+
+Networking
+    CIDR
+    Subnet
+    How to divide CIDR into subnets?
+
+
+CI/CD
+    Agents
+        Hosted
+        Custom
+    Why Docker? Why not on VM?
+
+    Run Time variables
+    Azure DevOps:
+        Agent: Why VMSS with Docker is best?
+        Pipelines
+            Templates
+        Parameters
+        Secrets Management
+        Key Vault
+        Group Variables
+
+
+Ansible
+    Why?
+    role
+        roles dependencies
+    tasks
+    modules
+    Jinja2 templates 
+
+
+Golden Images
+    Linux: Packer + Shell + Ansible
+    Windows: Packer + Powershell
+
+
+Terraform
+    Why?
+    statefile? where to store it?
+    providers
+    init
+    plan
+    apply
+    run time variables
+    tfvars
+    modules
+        custom
+        community
+    Why to use wrappers like Terragrunt / Terramate?
+
+
+Ingress and Egress layers
+    Where to offload SSL?
+    Internet --> VM Public IP --- VM
+    VM --> VGW --> Egress
+
+    Internet ---> App Gateway (WAF, DDOS) ---> Azure Firewall (IDPS) ---> <BACKEND>
+                BACKEND = Internal Load Balancer ---> VM
+                BACKEND = VM
+    VM ---> Azure Firewall ---> Internet
+
+
+Kubernetes
+    Container Runtime
+    Nodes
+    Ingress
+    CRD
+    Policy
+    API Version
+    Pods
+    Daemonsets
+    Deployments
+    Replication Set
+    Service Account
+    Service Mesh
+    Secret Management
+    Helm
+    Kustomize
+    GitOps
+        ArgoCD
+        Flux
